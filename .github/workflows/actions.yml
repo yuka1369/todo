@@ -1,6 +1,6 @@
 build_and_push: 
-  runs-on: ubuntu-latest 
-    steps:
+  runs-on: ubuntu-latest
+    steps:　
       - name: checkout
         uses: actions/checkout@v2
       - name: Set up Docker Buildx
